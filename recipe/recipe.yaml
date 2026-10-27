@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: ewccli
-  version: "0.9.3"
+  version: "0.10.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/ewccli-${{ version }}.tar.gz
-  sha256: 429fbb9b890a02400926fcd3d6f9342d60b2a2221fa27b57353326d438381a00
+  sha256: c306256f4fa447ac570ed547985a5215b807928d6b663bcd62e23d88b9b7d584
 
 build:
   number: 0
